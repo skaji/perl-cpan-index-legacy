@@ -9,7 +9,7 @@ In cases like this, the index files in this repository might help.
 
 # Usage
 
-Let's say you use perl v5.10.1, and want to install Plack. Plack now requires perl v5.12, so it cannot be install as is:
+Let's say you use perl v5.10.1, and want to install Plack. Plack now requires perl v5.12, so it cannot be installed as is:
 
 ```
 ❯ perl -v
