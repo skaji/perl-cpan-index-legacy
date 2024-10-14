@@ -2,7 +2,7 @@
 
 This repository contains CPAN index files for old perls.
 
-For some reasons, you have to use old perls, such as v5.8 or v5.10.
+For some reasons, you might have to use old perls, such as v5.8 or v5.10.
 Then you'll have difficulty installing CPAN modules because a lot of CPAN modules requires a more recent perl.
 
 In cases like this, the index files in this repository might help.
