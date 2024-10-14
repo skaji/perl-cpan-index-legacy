@@ -29,6 +29,8 @@ DONE install Plack-1.0050
 53 distributions installed.
 ```
 
+[Which modules will you be able to install?](NOTE.md)
+
 # See also
 
 https://www.nntp.perl.org/group/perl.perl5.porters/2023/04/msg266308.html

@@ -1,4 +1,4 @@
-On perl v5.8.5 with index file [5.8.1.txt](5.8.1.txt), I confirmed that we could install:
+With the index file [5.8.1.txt](5.8.1.txt), you'll be able to install the following modules into perl 5.8.5:
 
 ```
 App::cpm
@@ -10,7 +10,7 @@ LWP::Protocol::https
 Plack
 ```
 
-On perl v5.10.1 with index file [5.10.1.txt](5.10.1.txt), I confirmed that we could install:
+With the index file [5.10.1.txt](5.10.1.txt), you'll be able to install the following modules into perl 5.10.1:
 
 ```
 Catalyst
