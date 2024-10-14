@@ -1,0 +1,2 @@
+run:
+	perl generate.pl
