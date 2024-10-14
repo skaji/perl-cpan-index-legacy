@@ -15,6 +15,7 @@ my %spec = (
         'Plack' => '1.0050', # v5.12
         'Pod::Man' => '4.14', # v5.12
         'Pod::Text' => '4.14', # v5.12
+        'Socket' => '2.032', # undefined symbol: SvRV_set
         'String::RewritePrefix' => '0.008', # v5.12
         'Sub::Exporter' => '0.990', # v5.12
         'Sub::Exporter::Util' => '0.990', # v5.12

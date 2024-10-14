@@ -87,6 +87,7 @@ Pod::Text 4.14 R/RR/RRA/podlators-4.14.tar.gz
 Pod::Text::Color 4.14 R/RR/RRA/podlators-4.14.tar.gz
 Pod::Text::Overstrike 4.14 R/RR/RRA/podlators-4.14.tar.gz
 Pod::Text::Termcap 4.14 R/RR/RRA/podlators-4.14.tar.gz
+Socket 2.032 P/PE/PEVANS/Socket-2.032.tar.gz
 String::RewritePrefix 0.008 R/RJ/RJBS/String-RewritePrefix-0.008.tar.gz
 Sub::Exporter 0.990 R/RJ/RJBS/Sub-Exporter-0.990.tar.gz
 Sub::Exporter::Util 0.990 R/RJ/RJBS/Sub-Exporter-0.990.tar.gz
