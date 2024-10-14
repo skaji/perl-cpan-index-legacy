@@ -29,7 +29,7 @@ DONE install Plack-1.0050
 53 distributions installed.
 ```
 
-[Which modules will you be able to install?](NOTE.md)
+Which modules will you be able to install? See [NOTE.md](NOTE.md).
 
 # See also
 
