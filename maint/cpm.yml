@@ -1,8 +1,0 @@
-prereqs:
-  runtime:
-    requires:
-      App::cpm:
-      JSON::XS:
-      Path::Tiny:
-      _: { git: https://github.com/skaji/perl-cpan-index-generate.git }
-      perl: { version: 'v5.40' }
