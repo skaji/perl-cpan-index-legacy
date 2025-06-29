@@ -36,13 +36,9 @@ my %spec = (
     },
 );
 
-sub run (@cmd) {
-    warn "---> @cmd\n";
-    0 == system @cmd or die;
-}
+my sub run (@cmd) { warn "---> @cmd\n"; 0 == system @cmd or die }
 
-for my $version ("5.8.1", "5.10.1") {
-    my $spec = $spec{$version};
+for my ($version, $spec) (%spec) {
     my $local_lib = "local-$version";
 
     File::Path::remove_tree $local_lib;
@@ -55,8 +51,9 @@ for my $version ("5.8.1", "5.10.1") {
         "--resolver", "Fixed,$fixed",
         (sort keys $spec->%*);
 
+    my $include = join ",", sort keys $spec->%*;
     run "perl-cpan-index-generate",
         "--output", "../$version.txt",
-        "--include", (join ",", sort keys $spec->%*),
+        "--include", $include,
         "$local_lib/lib/perl5";
 }
