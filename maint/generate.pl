@@ -9,6 +9,7 @@ my %spec = (
     "5.8.1" => {
         'CPAN::Meta::Requirements' => '2.140', # v5.10
         'Data::OptList' => '0.113', # v5.12
+        'ExtUtils::ParseXS' => '3.51', # v5.8.3
         'Getopt::Long::Descriptive' => '0.105', # v5.12
         'HTML::Tagset' => '3.20', # v5.10
         'IO::Socket::IP' => '0.41', # 5.14

@@ -2,6 +2,16 @@
 
 CPAN::Meta::Requirements 2.140 D/DA/DAGOLDEN/CPAN-Meta-Requirements-2.140.tar.gz
 Data::OptList 0.113 R/RJ/RJBS/Data-OptList-0.113.tar.gz
+ExtUtils::ParseXS 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::ParseXS::Constants 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::ParseXS::CountLines 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::ParseXS::Eval 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::ParseXS::Utilities 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::Typemaps 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::Typemaps::Cmd 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::Typemaps::InputMap 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::Typemaps::OutputMap 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
+ExtUtils::Typemaps::Type 3.51 L/LE/LEONT/ExtUtils-ParseXS-3.51.tar.gz
 Getopt::Long::Descriptive 0.105 R/RJ/RJBS/Getopt-Long-Descriptive-0.105.tar.gz
 Getopt::Long::Descriptive::Opts 0.105 R/RJ/RJBS/Getopt-Long-Descriptive-0.105.tar.gz
 Getopt::Long::Descriptive::Usage 0.105 R/RJ/RJBS/Getopt-Long-Descriptive-0.105.tar.gz
