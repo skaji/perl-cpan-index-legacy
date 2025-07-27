@@ -1,9 +1,7 @@
 #!/usr/bin/env perl
-use v5.40;
+use v5.42;
 
 use File::Path ();
-use JSON::XS ();
-use Path::Tiny ();
 
 my %spec = (
     "5.8.1" => {
@@ -38,7 +36,7 @@ my %spec = (
 
 my sub run (@cmd) { warn "---> @cmd\n"; 0 == system @cmd or die }
 
-for my ($version, $spec) (%spec) {
+for my ($version, $spec) (%spec{sort keys %spec}) {
     my $local_lib = "local-$version";
 
     File::Path::remove_tree $local_lib;
